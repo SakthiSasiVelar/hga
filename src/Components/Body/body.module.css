@@ -1,4 +1,6 @@
 .container{
     padding-top: 5rem;
     padding-bottom: 5rem;
+    width: 1920px;
+    margin: 0 auto;
 }
