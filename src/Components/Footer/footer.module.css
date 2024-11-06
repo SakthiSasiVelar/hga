@@ -1,0 +1,123 @@
+/* footer.module.css */
+.container {
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+/* Base subcontainer styles */
+.subcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 80px;
+    padding: 20px 0;
+}
+
+/* Navigation section */
+.navigationContainer {
+    composes: subcontainer;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 0; /* Remove the inherited gap */
+    justify-content: space-around; /* Change to space-between for even distribution */
+    padding: 20px 120px; /* Add horizontal padding to bring items closer */
+}
+
+.navigationLinks {
+    padding-left: 4px;
+    display: flex;
+    gap: 75px; /* Consistent gap between navigation items */
+}
+
+.socialIcons {
+    padding-right: 218px;
+    display: flex;
+    gap: 56px;
+}
+
+/* Newsletter section */
+.newsletterContainer {
+    composes: subcontainer;
+    padding: 30px 0;
+}
+
+.emailSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.emailSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.inputGroup {
+    display: flex;
+    flex: 0.7; /* Reduce this value to make it smaller */
+    /* or you can use max-width */
+    max-width: 400px; /* Adjust this value as needed */
+    gap: 0;
+}
+
+/* Rest of your styles remain the same */
+
+.input {
+    padding: 12px;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+.button {
+    padding: 12px 24px;
+    background-color: #FDB815;
+    border: none;
+    color: #222222;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+.button:hover {
+    background-color: #e6a713;
+}
+
+/* Bottom section */
+.bottomContainer {
+    composes: subcontainer;
+    justify-content: center;
+    gap: 40px;
+    font-size: 14px;
+}
+
+.copyright {
+    color: #999;
+}
+
+.navigationLinks span:hover,
+.bottomContainer span:hover {
+    color: #FDB815;
+    cursor: pointer;
+}
+
+.dividerVertical {
+    border-left: 2px solid #fff;
+    height: 20px;
+    display: inline-block;
+}
