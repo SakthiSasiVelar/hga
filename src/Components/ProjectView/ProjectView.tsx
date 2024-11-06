@@ -79,7 +79,7 @@ const ProjectView = () => {
         {projects.map((project) => (
           <div 
             key={project.id} 
-            className={`${Styles.projectCard} ${project.isWide ? Styles.wideCard : ''}`}
+            className={`${Styles.projectCard}`}
           >
             <div className={Styles.imageWrapper}>
               <img 
