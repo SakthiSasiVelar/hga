@@ -14,8 +14,7 @@ const Header = () => {
       </div>
       <div>
         <BannerSliderContainer />
-        <ProjectView />
-        <InsightsSection/>
+        
       </div>
     </div>
   );
