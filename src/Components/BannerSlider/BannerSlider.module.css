@@ -1,0 +1,21 @@
+.container{
+    width:389px;
+    padding-left: 35px;
+    cursor: pointer;
+}
+
+.slider{
+    border-bottom: 4px solid #ddd;
+    margin: 15px 0;
+    height: 28px;
+    width:100%;
+}
+
+.content{
+    color:#ddd;
+    font-weight: 700;
+}
+
+.active{
+    color: yellow;
+}
