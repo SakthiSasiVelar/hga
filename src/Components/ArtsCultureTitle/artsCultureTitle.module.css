@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    align-items: center;
+    width: 252px;
+    background-color: white;
+    padding: 0 1rem;
+    
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    
+}
+
+.titleContainer{
+    padding: 10px 0 0 0;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #222;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.active{
+    border-bottom: 4px solid #FEC709;
+    display: inline-block
+}
+
+.link:hover{
+    border-bottom: 4px solid #FEC709;;
+}

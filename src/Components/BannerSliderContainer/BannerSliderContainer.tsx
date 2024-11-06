@@ -7,7 +7,7 @@ const BannerSliderContainer = () => {
     <div className={Styles.container}>
       {
         bannerSliderContents.map((slider) =>{
-          return <BannerSlider  key={slider.id} content={slider.content} />
+          return <BannerSlider  key={slider.id} content={slider.content} isActive={slider.isActive}/>
         })
       }
     </div>

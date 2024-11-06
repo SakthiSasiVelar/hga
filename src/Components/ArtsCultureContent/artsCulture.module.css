@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem 0 4rem;
+}
+
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    height:308px;
+    row-gap: 1.5rem;
+}
+
+.title{
+    font-size: 48px;
+    color: black;
+}
+
+.link{
+    font-family: "Knockout 29 A", "Knockout 29 B", sans-serif;
+    text-transform: uppercase;
+    color: #58595b;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    line-height: 24px;
+    font-weight: normal;
+    text-underline-offset: 4px;
+}

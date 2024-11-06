@@ -17,5 +17,10 @@
 }
 
 .active{
-    color: yellow;
+    border-color: #FEC709;
 }
+
+.contentColor{
+    color: black;
+}
+

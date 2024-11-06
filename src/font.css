@@ -1,7 +1,8 @@
 
 
 
-  @font-face {
+
+@font-face {
     font-family: 'Volte';
     src: url('./assets/fonts/Volte-Regular.woff2') format('woff2'),
          url('./assets/fonts/Volte-Regular.woff') format('woff');
@@ -9,4 +10,14 @@
     font-style: normal;
   }
   
+  @font-face {
+    font-family: 'Volte';
+    src: url('./assets/fonts/Volte-Medium.woff2') format('woff2'),
+         url('./assets/fonts/Volte-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
   
+
+
+ 

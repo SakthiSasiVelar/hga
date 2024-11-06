@@ -1,23 +1,20 @@
 import Styles from './BannerSlider.module.css'
-import { useState } from 'react'
 
 interface props{
-    content : string
+    content : string,
+    isActive : boolean
 }
 
 const BannerSlider  :React.FC<props> = (props)  => {
-    const [isActive, setIsActive] = useState(false);
 
-    const handleClick = () => {
-      setIsActive(prevState => !prevState);
-    };
+
   return (
     <div className={Styles.container} >
-        <div onClick={handleClick}>
-            <div className={`${Styles.slider} ${isActive ? Styles.active : ''}`}> </div>   
+        <div >
+            <div className={`${Styles.slider} ${props.isActive ? Styles.active : ''}`}> </div>   
         </div>
         <div >
-             <p className={Styles.content}>{props.content}</p>
+             <p className={`${Styles.content} ${props.isActive ? Styles.contentColor : ''}`}>{props.content}</p>
         </div>
     </div>
   )

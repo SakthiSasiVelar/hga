@@ -1,0 +1,26 @@
+.container{
+    background: #f2f3f4;
+    width:1370px;
+    padding-top:3rem;
+    padding-bottom: 2rem;
+}
+.contentContainer{
+    width : 583px;
+    height: 168px;
+    padding-left: 2rem;
+}
+
+.innerContainer{
+    display: flex;
+    
+    margin-left: 190px;
+    
+}
+
+.heading{
+    font-size: 48px !important;
+    line-height: 48px !important;
+    font-family: "Chronicle Display A", "Chronicle Display B", serif;
+    font-weight: normal;
+    color: #444;
+}
